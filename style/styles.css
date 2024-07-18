@@ -1,14 +1,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
 .inter-fonts {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 800, 900, 400;
+  font-weight: 800, 900,600, 400;
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
     background-color: black;
+}
+
+
+.dancing-script-fonts {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 95px;
 }
 
 /* shared style */
@@ -50,4 +63,86 @@ font-weight: 800;
     border-radius: 45px;
     border: none;
 
+}
+
+/* banner style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 214px 0 190px;
+    
+}
+.banner-content{
+       max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+.banner-title{
+    font-size: 78px;
+    font-weight: 900;
+    color: white;
+}
+.banner-description{
+ color:white;
+ font-size: 16px;
+ font-weight: 400;
+margin-top: -30px;
+margin-bottom: 30px;
+}
+.btn-prime-1{
+    background-color: rgb(230, 83, 60);
+    padding: 16px 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 45px;
+    border: none;
+}
+.btn-prime-2{
+    padding: 16px 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 45px;
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+   
+}
+.banner-img{
+
+}
+.btn-prime{
+    padding: 20px 25px;
+    color: white;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    height: 100px;
+    width: 200px;
+    margin-left: -100px;
+    margin-bottom: -100px;
+    
+}
+
+/* section-1 */
+
+.habits{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    padding: 130px 150px;
+}
+.section-title{
+    font-size: 48px;
+font-weight: 900;
+}
+.section-description{
+    font-size: 14px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.5);
+margin-top: -30px;
 }
