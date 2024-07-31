@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px){
+    nav ul{
+       display: none;
+    }
+    .nav-icon{
+        display: block;
+
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 35px;
+        
+    }
+}
