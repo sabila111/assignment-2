@@ -290,6 +290,106 @@ margin-top: -30px;
 }
 
 /* section-3 */
+
+.calculator-div{
+    background-color:rgb(34, 34, 34) ;
+    margin-top: 90px;
+}
+.calculator-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 0;
+}
+
+/* table */
+
+.calculator1, .calculator2{
+   
+    width: 48%;
+}
+.calculator1 h3, .calculator2 h3{
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+}
+.calculator2 p{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+margin-bottom: 35px;
+}
+.calculator1 table{
+    width: 50%;
+   border-collapse: collapse;
+    margin-top: 50px;
+}
+.calculator1 table, .calculator1 th ,.calculator1 td{
+  
+    border: 1px solid #555;
+   
+}
+.calculator1 th ,.calculator1 td{
+    text-align: start;
+    padding: 13px;
+}
+.calculator1 th {
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+}
+.calculator1 td {
+    color:rgba(255, 255, 255, 0.5) ;
+      font-size: 14px;
+      font-weight: 400;
+}
+
+/* form */
+
+.calculator2 form{
+    display: flex;
+    flex-direction: column;
+}
+.form-row{
+    display: flex;
+    justify-content: space-between;
+}
+.calculator2 input{
+    width: 50%;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+   
+    font-size: 16px;
+    font-weight: 400;
+}
+.form-option{
+    width: 97%;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.4);
+font-size: 16px;
+font-weight: 400;
+}
+#option{
+    width: 53%;
+    margin: 10px;
+    padding: 12px ;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* section-4 */
 .team-section{
     width: 80%;
     margin: 0 auto;
@@ -327,7 +427,20 @@ margin-top: -30px;
     border-radius: 15px;
 }
 
-
+/* section-5 */
+.newsletter{
+    width: 80%;
+    margin: 0 auto;
+margin-top: 90px;
+}
+.newsletter-container{
+    background-image: url("../images/fitness.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+    margin-left: 28px;
+}
 
 /* footer */
 footer{
