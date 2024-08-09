@@ -27,6 +27,7 @@ body{
   font-size: 95px;
 }
 
+
 /* shared style */
 .shared{
     width: 90%;
@@ -440,8 +441,47 @@ margin-top: 90px;
     height: 500px;
     margin-bottom: 50px;
     margin-left: 28px;
+    text-align: center;
 }
+.dancing-script-fonts-2 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 90px;
+    color: rgba(255, 255, 255, 0.8);
+  }
 
+.newsletter-title{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -20px;
+    margin-bottom: -15px;
+
+}
+.subscribe input{
+    width: 30%;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+   color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.newsletter-btn{
+    background-color: rgb(230, 83, 60);
+    padding: 13px 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+}
 /* footer */
 footer{
     background-color: rgb(36, 36, 36);
