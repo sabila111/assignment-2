@@ -160,38 +160,46 @@ width: 420px;
     font-weight: 900;
     text-align: left;
     /* margin-right: 80px; */
+    color: white;
 }
 .button-text-2{
     font-size: 13px;
     font-weight: 400;
-    /* padding-right: 40px; */
     color: rgba(255, 255, 255, 0.65);
+    margin-top: -18px;
+    
 }
 .banner-div{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   
 }
 .banner-btn{
   
     position: absolute;
-    top: 580px;
-   left: 800px;
+    top: 520px;
+   left: 820px;
+   padding-left: 70px;
      color: white;
-     border-radius: 10px;
      background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-     height: 100px;
-     width: 200px;
+     border: 1px solid rgba(255, 255, 255, 0.1);
+     border-radius: 10px;  
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+     height: 98px;
+     width: 130px;
     
 }
 .round{
     background-color: rgb(230, 83, 60);
     border-radius: 1000px;
+    padding: 10px 12px;
     border: none;
+    color: white;
+    /* color: rgb(230, 83, 60); */
     position: absolute;
-    top: 620px;
-   left: 800px;
+    top: 550px;
+   left: 840px;
 }
 
 /* section-1 */
@@ -291,7 +299,23 @@ margin-top: -30px;
 }
 
 /* section-3 */
-
+.calculator-title{
+    color: white;
+    margin-left: 420px;
+}
+.calculator-title-2{
+    text-align: start;
+    font-size: 48px;
+    font-weight: 900;
+}
+.calculator-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+   width: 60%;
+   margin-top: -30px;
+   text-align: start;
+}
 .calculator-div{
     background-color:rgb(34, 34, 34) ;
     margin-top: 90px;
@@ -358,7 +382,7 @@ margin-bottom: 35px;
     justify-content: space-between;
 }
 .calculator2 input{
-    width: 50%;
+    width: 90%;
     margin: 10px;
     padding: 12px;
     border-radius: 8px;
@@ -380,7 +404,7 @@ font-size: 16px;
 font-weight: 400;
 }
 #option{
-    width: 53%;
+    width: 92%;
     margin: 10px;
     padding: 12px ;
     border-radius: 8px;

@@ -59,13 +59,29 @@
         font-size: 10px;
         margin-right: 10px;
     }
-
+    .banner-btn{
+  
+        position: absolute;
+        top: 730px;
+       left: 35px;
+       padding-left: 60px;
+         height: 90px;
+         width: 120px;
+        
+    }
+    .round{
+       
+        padding: 8px 10px;
+        top: 760px;
+       left: 50px;
+    }
     .habits, 
     .run, 
     .team-section, 
     .footer-container,
     .emty,
-    .newsletter{
+    .newsletter,
+    .calculator-container{
         width: 90%;
         margin: 0 auto;
     }
@@ -108,6 +124,54 @@
         object-fit: fill;
          margin-top: 10px;
     }
+    .calculator-title{
+        margin-left: 20px;
+       
+    }
+    .calculator-title-2{
+        font-size: 32px;
+        padding-top: 30px;
+    }
+    .calculator-description{
+       width: 80%;
+       margin-top: -18px;
+    }
+    .calculator-div{
+        margin-top: 40px;
+    }
+    .calculator-container{
+        flex-direction: column;
+    }
+    .calculator1, .calculator2{
+   
+        width: 100%;
+    }
+    .calculator1 h3, .calculator2 h3{
+        font-size: 20px;
+    }
+    .calculator2 h3{
+        margin-top: 50px;
+    }
+    .calculator1 table{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .calculator2 input{
+        margin: 5px;
+        padding: 20px ;
+    }
+    .form-option{
+        width: 97%;
+        margin: 10px -5px 10px 5px;
+        padding:20px;
+    }
+    #option{
+        width: 100%;
+        margin: 10px;
+        padding: 20px ;
+    }
+    
+    /* section 4 */
     .team-container{
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
