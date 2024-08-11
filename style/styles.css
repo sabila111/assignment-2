@@ -474,7 +474,7 @@ margin-top: 90px;
     font-style: normal;
     font-size: 30px;
     padding-top: 90px;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.9);
   }
 
 .newsletter-title{
@@ -506,6 +506,9 @@ margin-top: 90px;
     border: none;
     margin-top: 30px;
 }
+input::placeholder {
+    color:rgba(255, 255, 255, 0.6) ;
+  }
 /* footer */
 footer{
     background-color: rgb(36, 36, 36);
